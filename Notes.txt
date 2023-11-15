@@ -1,0 +1,73 @@
+//SRP : -Single responsibility Principle
+//component is nothing but a function ... and each  function must have a single repsonsibilty
+
+//Maintaing a code in modular fashion means to divide the code in small parts/ modules.
+//Benefit : - code becomes more reusable , maintable and testable
+
+
+//Hooks : - Normal utility functions
+//Now custom hooks
+
+
+//Important 
+//suppose ---- card.card then we can write it like card.["card"] ....this is use if some object haveing special character in name 
+
+
+//https://docs.google.com/document/d/1Ao6o9GDmG1NxvsM5i46btAIqRtWFYPubrJeXAPVy_Vc/edit?pli=1
+
+
+// Higher order Function :- It is a function which takes a component enhance it , then returns it.
+
+// Pure functions
+
+// ACCORDIAN
+
+//chunking
+//on demand loading
+//Dynamic Bundling
+//Code splitting are same :- means to split the js files which are created at the time of budling , it is necessary as at the time of production the js files will not take to much time Because its size will get decreased
+//lazy loading
+In this , when we use lazy(() => import("../path")) for component call then it sometimes it shows error of rendering
+because when we are tapping on button on ui , then js files loads which takes sometime to loadUP.
+which causes error
+//dynamic importing
+
+But using suspense we can counter this and placeholder/fallback 
+
+
+--------------------------------------------------------
+1.Using Css
+2.Sass and Scss (not recommend for large prod app)
+3.styled-components
+4.material-ui
+5.bootstrap
+6.chakra-ui
+7.ant design (world 2nd most popular React library )
+
+
+//Talwind css provide us classname for every css which we want to write in app
+// it will include the css which is req...at the time of building ...dynamic in nature and lightweight
+
+
+
+
+
+
+// zustand or redux
+
+//Redux
+
+//There are 2 layers DATA LAYER AND UI LAYER , REDUX Works on Data layers
+
+//Redux offers 2 libraries :-
+//React-Redux and Redux-Toolkit
+
+
+
+
+//props drilling
+
+//React context
+
+//contextname.Provider value = {{name : new name}}
+//this will update the context default value and this must wrap the whole app
